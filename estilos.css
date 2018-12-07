@@ -1,0 +1,17 @@
+/* este es un comentarios (no se por que demonios tengo que ponerlo es una cosa estupida) 
+archivo principal
+*/
+
+h1{
+    color:white;
+    background-color: white;
+}
+/*
+selecciona los elementos con el atributo 
+data-aprovado
+*/
+[data-aprobado|="Si"]{
+    font-size: 20px;
+    color: blue;
+    border: solid 1px green;
+}
